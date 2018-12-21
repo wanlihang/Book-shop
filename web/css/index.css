@@ -1,0 +1,312 @@
+body {
+    font-family: "Microsoft YaHei", "SimSun", '\5b8b\4f53', sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.height{
+	height: auto !important;
+}
+
+.nobor {
+    border-bottom: 0 !important;
+}
+
+.margin0 {
+    margin: 0 !important;
+}
+
+.padding0 {
+    padding: 0 !important;
+}
+
+.clear{
+	clear: both;
+}
+.clear:after {
+    content: '\20';
+    clear: both;
+    zoom: 1;
+    display: block;
+    height: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #A17448;
+
+}
+
+i {
+    font-style: normal;
+}
+
+div{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*site-nav*/
+.site-nav-bg {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+}
+
+.site-nav {
+    position: relative;
+}
+
+.sn-back-home {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sn-back-home i {
+    margin: 0 4px 0 8px;
+    font-size: 14px;
+}
+
+.sn-quick-menu {
+    position: absolute;
+    right: 12px;
+}
+
+.sn-quick-menu div {
+    float: left;
+}
+
+
+.sn-quick-menu div.login {
+    margin-right: 22px;
+    margin-top: 5px;
+}
+
+.sn-quick-menu div.login a {
+    color: #ff5500;
+}
+
+.sn-quick-menu div.sp-cart{
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+/*end-site-nav*/
+
+
+/*header*/
+.header {
+    height: 100px;
+    line-height: 100px;
+}
+
+.header .mallLogo {
+    border: none;
+    margin :auto auto;
+    float: left;
+    color: #814021;
+    font-family: STXingkai;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .mallSearch {
+    float: right;
+    width: 500px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.header .mallSearch form {
+    height: 38px;
+    line-height: 38px;
+    border-width: 1px 0 1px 1px;
+    border: solid #A17448;
+    position: relative;
+}
+
+.header .mallSearch input {
+    height: 38px;
+    line-height: 38px;
+    width: 436px;
+    float: left;
+    border: none;
+    position: relative;
+    z-index: 2;
+    background: none;
+    padding-left: 10px;
+}
+
+.header .mallSearch button {
+    width: 58px;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    background: #A17448;
+    border-radius: 0;
+}
+
+/*end-header*/
+
+.content{
+
+	border-top: 1px solid #A17448;
+	background-color: #f8f8f8;
+	
+}
+
+/*index*/
+.index-content .commod-cont-wrap {
+    background: #f8f8f8;
+    padding: 50px 0 90px 0;
+}
+
+.index-content .commod-cont .left-nav {
+    width: 200px;
+    line-height: 38px;
+    background: #fff;
+    float: left;
+    margin-right: 58px;
+}
+
+.index-content .commod-cont .left-nav .list-box {
+    border: 1px solid #eeeeee;
+}
+
+.index-content .commod-cont .left-nav .title {
+    color: #fff;
+    font-size: 16px;
+    background: #333333;
+    text-align: center;
+}
+
+
+.index-content .commod-cont .left-nav .list-box dt,
+.index-content .commod-cont .left-nav .list-box dd {
+    border-bottom: 1px dashed #eeeeee;
+    cursor: pointer;
+}
+
+.index-content .commod-cont .left-nav .list-box dd:hover a {
+    color: #ff5500;
+}
+
+.index-content .commod-cont .left-nav .list-box dt {
+    font-size: 14px;
+    color: #333;
+    padding-left: 30px;
+    background: url(../img/off-icon.png) 8px -2px no-repeat;
+    cursor: pointer;
+}
+
+.index-content .commod-cont .left-nav .list-box dt.active {
+    background-position: 8px -40px;
+}
+
+.index-content .commod-cont .left-nav .list-box dd a {
+    padding-left: 42px;
+    color: #888888;
+}
+
+.index-content .commod-cont .left-nav .list-box dl:last-child dd:last-child {
+    border-bottom: 0;
+}
+
+.index-content .commod-cont .right-cont-wrap {
+    float: left;
+    width: 940px;
+}
+
+.index-content .commod-cont .right-cont {
+    width: 1000px;
+}
+
+.index-content .commod-cont .right-cont .sort {
+    margin-top: 5px;
+}
+
+.index-content .commod-cont .right-cont .sort a {
+    width: 58px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #eaeaea;
+    margin-left: -1px;
+    float: left;
+    background: #fff;
+    background: #fff url(../img/sort-arrow.png) no-repeat 41px 0;
+    text-indent: 9px;
+}
+
+.index-content .commod-cont .right-cont .sort a.active {
+    background-position: 41px -26px;
+}
+
+.index-content .commod-cont .right-cont .prod-number {
+    line-height: 44px;
+    font-size: 16px;
+    padding-left: 7px;
+}
+
+.index-content .commod-cont .right-cont .cont-list .item {
+    float: left;
+    width: 280px;
+    height: 400px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    margin: 0 47px 60px 0;
+}
+
+.index-content .commod-cont .right-cont .cont-list .item .img {
+    border-bottom: 1px solid #eaeaea
+}
+
+.index-content .commod-cont .right-cont .cont-list .item .text {
+    padding: 0 0 0 14px;
+}
+
+.index-content .commod-cont .right-cont .cont-list .title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    height: 20px;
+}
+.index-content .commod-cont .right-cont .cont-list .descri {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 14px;
+    height: 60px;
+}
+
+.index-content .commod-cont .right-cont .cont-list .price {
+    position: relative;
+}
+
+.index-content .commod-cont .right-cont .cont-list .pri {
+    color: #ee0000;
+}
+
+.index-content .commod-cont .right-cont .cont-list .nub {
+    position: absolute;
+    right: 13px;
+}
+
+/*end-index*/
